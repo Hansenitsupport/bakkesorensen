@@ -1,0 +1,8 @@
+BAKKE SØRENSEN AS – NETTSIDE
+
+1. Last opp index.html, robots.txt og sitemap.xml til GitHub eller webhotellet.
+2. Kontakt­skjema: Åpne index.html og søk etter SETT_INN_WEB3FORMS_ACCESS_KEY.
+3. Bytt denne teksten med access key fra Web3Forms.
+4. Kontroller telefon, adresse og tekst før publisering.
+
+Bildene hentes fra Unsplash. De kan senere byttes med bedriftens egne bilder.
