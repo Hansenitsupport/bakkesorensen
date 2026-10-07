@@ -56,7 +56,7 @@
     <section id="kontakt" class="contact"><div class="wrap contact-grid"><aside class="contact-info"><span class="eyebrow" data-editable="source" data-path="/index.html" data-key="contact-eyebrow">Ta kontakt</span><h2 data-editable="source" data-path="/index.html" data-key="contact-title">Fortell oss om prosjektet</h2><p data-editable="source" data-path="/index.html" data-key="contact-text">Beskriv bygget, dagens varmeløsning og hva du ønsker hjelp med. Vi tar kontakt for en nærmere prat.</p><div class="contact-row"><small>Telefon</small><a href="tel:+4790121107"><strong>901 21 107</strong></a></div><div class="contact-row"><small>Adresse</small><strong>Kjørbekksvingen 16<br>3735 Skien</strong></div><div class="contact-row"><small>Organisasjonsnummer</small><strong>975 956 083</strong></div></aside>
       <form class="form" action="https://api.web3forms.com/submit" method="POST" id="contactForm">
         <!-- Bytt teksten under med tilgangsnøkkelen fra Web3Forms -->
-        <input type="hidden" name="access_key" value="SETT_INN_WEB3FORMS_ACCESS_KEY">
+        <input type="hidden" name="access_key" value="bdca67d2-34b9-4dec-842a-c76445cd8af7">
         <input type="hidden" name="subject" value="Ny henvendelse fra bakkesorensen.no">
         <input type="hidden" name="from_name" value="Bakke Sørensen nettside">
         <input type="checkbox" name="botcheck" style="display:none">
@@ -71,7 +71,7 @@
     const form=document.getElementById('contactForm');
     form.addEventListener('submit',async e=>{
       const key=form.querySelector('[name=access_key]').value;
-      if(key==='bdca67d2-34b9-4dec-842a-c76445cd8af7'){
+      if(key==='SETT_INN_WEB3FORMS_ACCESS_KEY'){
         e.preventDefault();
         alert('Kontakt­skjemaet må kobles til Web3Forms. Sett inn access key i index.html.');
         return;
